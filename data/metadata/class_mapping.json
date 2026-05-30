@@ -1,0 +1,16 @@
+{
+  "description": "Integer index to Attack class name mapping",
+  "mapping": {
+    "0": "Analysis",
+    "1": "Backdoor",
+    "2": "Benign",
+    "3": "DoS",
+    "4": "Exploits",
+    "5": "Fuzzers",
+    "6": "Generic",
+    "7": "Reconnaissance",
+    "8": "Shellcode",
+    "9": "Worms"
+  },
+  "num_classes": 10
+}

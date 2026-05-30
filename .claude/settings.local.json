@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(nvidia-smi *)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\Administrator\\\\Desktop\\\\NetFlowProject - Copy\" -Recurse -File | Where-Object { $_.Extension -in '.py','.csv' } | Sort-Object LastWriteTime -Descending | Select-Object FullName, LastWriteTime -First 30)",
+      "PowerShell(Test-Path *)",
+      "PowerShell($df = Get-Item \"data/NF-CSE-CIC-IDS2018-v3.csv\" -ErrorAction SilentlyContinue; if \\($df\\) { $sizeGB = $df.Length / 1GB; Write-Host \"  [OK] data/NF-CSE-CIC-IDS2018-v3.csv \\($\\([math]::Round\\($sizeGB, 1\\)\\) GB\\)\" } else { Write-Host \"  [MISSING] data/NF-CSE-CIC-IDS2018-v3.csv\" })",
+      "PowerShell(python experiments/run_stress_b_full.py)",
+      "PowerShell(python experiments/run_strategies.py --strategy 2 --full-stress-b --ensemble-train-frac 0.5 --ensemble-n-jobs 2 --stress-b-chunk-size 100000)",
+      "PowerShell(python experiments/run_strategies.py --strategy 2 --full-stress-b --stress-b-only --ensemble-train-frac 0.5 --ensemble-n-jobs 4 --stress-b-chunk-size 1000000)",
+      "PowerShell(python experiments/check_consistency.py)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\NetFlowProject - Copy\" -Directory -Depth 2 | Select-Object FullName | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-Content *)"
+    ]
+  }
+}

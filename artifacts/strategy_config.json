@@ -1,0 +1,4 @@
+{
+  "strategy": "confidence_threshold",
+  "tau": 0.99
+}

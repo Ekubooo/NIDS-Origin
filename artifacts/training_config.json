@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "random_state": 42,
+  "train_samples": 1655796,
+  "val_samples": 236543,
+  "test_samples": 473085,
+  "n_features": 49,
+  "numeric_features": 41,
+  "protocol_features": 6,
+  "categorical_features": 2,
+  "num_classes": 10,
+  "classes": [
+    "Analysis",
+    "Backdoor",
+    "Benign",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Generic",
+    "Reconnaissance",
+    "Shellcode",
+    "Worms"
+  ],
+  "class_weights": {
+    "Analysis": 192.75855646100118,
+    "Backdoor": 50.77571297148114,
+    "Benign": 0.10570635676077351,
+    "DoS": 39.55556617295748,
+    "Exploits": 5.533522708284597,
+    "Fuzzers": 6.995040344725614,
+    "Generic": 12.036900261703984,
+    "Reconnaissance": 13.853714859437751,
+    "Shellcode": 99.32789442111577,
+    "Worms": 1505.269090909091
+  }
+}

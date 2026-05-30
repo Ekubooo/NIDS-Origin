@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# Raw NF-UQ-NIDS-v3 datasets are required locally but should not be committed.
+data/*.csv
+!data/sample_test.csv
+!data/sample_predictions.csv
+!data/NetFlow_v3_Features.csv
+
+# Large trained artifacts can be regenerated from the experiment scripts.
+artifacts/*.joblib
+artifacts/ensemble_models/*.joblib
+artifacts/ensemble_predictions/
+
+# Local scratch outputs.
+results/test_cli_output.csv
+reports/archive/

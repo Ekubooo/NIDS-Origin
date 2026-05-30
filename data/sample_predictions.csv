@@ -1,0 +1,11 @@
+flow_index,prediction,confidence,disagreement,decision
+0,Benign,0.9973428632061905,0.0,ALERT (high confidence + consensus)
+1,Benign,0.9999990336335722,0.0,ALERT (high confidence + consensus)
+2,Benign,0.9999998698692878,0.0,ALERT (high confidence + consensus)
+3,Benign,0.9999989597087329,0.0,ALERT (high confidence + consensus)
+4,Benign,0.9999945014612368,0.0,ALERT (high confidence + consensus)
+5,Benign,0.9999999510475748,0.0,ALERT (high confidence + consensus)
+6,Benign,0.9999998199022275,0.0,ALERT (high confidence + consensus)
+7,Benign,0.9999997430913078,0.0,ALERT (high confidence + consensus)
+8,Benign,0.9999998599280691,0.0,ALERT (high confidence + consensus)
+9,UNKNOWN,0.3216423565624915,0.4,FLAG FOR REVIEW (below threshold)
