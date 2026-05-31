@@ -41,7 +41,7 @@ for c in df_raw.columns:
 print("PASS: raw CSV all numeric")
 
 # README numbers
-with open("README.md") as f:
+with open("README.md", encoding="utf-8") as f:
     rm = f.read()
 for pat, expected in [("Baseline.*?RF.*?Macro-F1.*?(\\d+\\.\\d+)", 0.6774),
                        ("Stress C.*?\\| (\\d+\\.\\d+)", 0.2688)]:
