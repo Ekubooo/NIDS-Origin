@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.idea
 
 # Raw NF-UQ-NIDS-v3 datasets are required locally but should not be committed.
 data/*.csv
