@@ -1,0 +1,2 @@
+method,augmentation_type,augmentation_ratio,original_train_samples,augmented_train_samples,n_features,augmentation_time_s,train_time_s,total_time_s,val_accuracy,val_macro_f1,val_weighted_f1,val_inference_s,test_accuracy,test_macro_f1,test_weighted_f1,test_inference_s
+Strategy 5 (Taichi augmented RF),fusion,1.0,1655796,3311592,49,1.902,73.953,102.669,0.986417,0.669496,0.986187,0.339329,0.986552,0.673605,0.986375,0.702297
