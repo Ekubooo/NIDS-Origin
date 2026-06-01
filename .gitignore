@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.idea
 
 # Raw NF-UQ-NIDS-v3 datasets are required locally but should not be committed.
 data/*.csv
@@ -15,3 +16,5 @@ artifacts/ensemble_predictions/
 # Local scratch outputs.
 results/test_cli_output.csv
 reports/archive/
+.taichi_cache/
+.matplotlib_cache/

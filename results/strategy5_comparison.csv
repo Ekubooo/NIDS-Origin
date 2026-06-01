@@ -1,0 +1,15 @@
+condition,metric,baseline_rf,strategy5_rf,delta_strategy5_minus_baseline
+clean_test,macro_f1,0.6774,0.673605,-0.003795
+clean_test,weighted_f1,0.9863,0.986375,7.5e-05
+stress_c_noise_sigma=0.1,macro_f1,0.2688,0.494067,0.225267
+stress_c_noise_sigma=0.5,macro_f1,0.2036,0.337296,0.133696
+stress_c_noise_sigma=1.0,macro_f1,0.1682,0.26558,0.09738
+stress_c_masking_p=0.1,macro_f1,0.6336,0.616475,-0.017125
+stress_c_masking_p=0.25,macro_f1,0.5214,0.491223,-0.030177
+stress_c_masking_p=0.5,macro_f1,0.2959,0.297649,0.001749
+stress_c_dropout_top_k=2,macro_f1,0.5379,0.531745,-0.006155
+stress_c_dropout_top_k=4,macro_f1,0.4151,0.314753,-0.100347
+stress_c_dropout_top_k=6,macro_f1,0.266,0.102873,-0.163127
+stress_c_dropout_bottom_k=2,macro_f1,0.6774,0.673605,-0.003795
+stress_c_dropout_bottom_k=4,macro_f1,0.6758,0.67188,-0.00392
+stress_c_dropout_bottom_k=6,macro_f1,0.674,0.669261,-0.004739

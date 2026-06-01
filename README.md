@@ -263,3 +263,7 @@ ensemble kept in memory while the target dataset is streamed once in chunks.
 ## Reference
 
 Dataset: Sarhan, M., Layeghy, S., & Portmann, M. (2024). NF-UQ-NIDS-v3: A Network Flow-Based Benchmark Dataset for Intrusion Detection.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
